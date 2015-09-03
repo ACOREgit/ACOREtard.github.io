@@ -51,6 +51,51 @@
 						Tähän mennessä olen asentanut Windowsille ympäristön OpenShiftiä varten.
 					</p>
 				</section>
+				
+
+				<section>
+					
+					<h1> Lemppari protokollat ! </h1>
+					<p>selaa alaspäin nähdäksesi mieluisista protokollistani</p>
+					
+					<section>
+						<h1> FTP - File Transfer Protocol </h1>	
+							<p> FTP protkolla on tiedonsiirto protokolla joka hyödyntää TCP-protokollaa. FTP toimii c2s eli client to server periaatteella. \n
+							Kun siirretään tiedostoja, yleensä se tapahtuu niin että client ottaa yhteyden serveriin. FTP:n tavoitteena on helpottaa tiedostojen
+							siirtämistä etänä useille käyttäjille kerrallaan. Pelkkä FTP yhteyden käyttäminen ei ole suotavaa tietoturvallisuutta vaativissa
+							ympäristöissä sillä FTP yhteys ei ole niin turvallinen, sillä esimerkiksi salasana lähetetään salaamattomina. Tähän tulisi mielummin käyttää SFTP yhteyttä (SSH File Transfer Protocol). FTP-palvelimet ovat hyviä palvelimia ylläpitämään sivustoja ja pieniä tiedostopalvelimia. FTP on todella helppo asentaa palvelimelle ja ei vie palvelimen resursseja juuri ollenkaan (muuta kuin datatilaa) \n FTP käyttää portteja 21 ja SFTP 22.  </p>
+					</section>
+					
+					<section>
+								
+						<h1> HTTP - HyperText Transfer Protocol </h1>
+						<p>
+							HTTP protokolla on kehitetty selainten ja WWW-palvelinten tiedonsiirtoon. Yksinkertaisuudessaan asiakasohjelma avaa TCP-yhteyden pavelimelle ja lähettää pyynnön ja palvelin vastaa tähän sopivalla tavalla (html tai binäärimuodossa). \n
+
+							HTTP-siirtotapahtuma koostuu kahdesta HTTP-viestistä: HTTP request ja HTTP response viestistä. Request -pyyntö sisältää pyyntörivin, http-otsakkeet sekä tarvittavan datan. Response -pyyntö taas sisältää tilarivin (status line), http-otsakkeet ja datan.
+
+							HTTP-protokolla käyttää porttia 80.
+						</p>
+
+					</section>
+
+					<section>
+						
+						<h1> IMAP - Internet Message Access Protocol </h1>
+
+						<p>
+							IMAP on protokolla jonka avulla käyttäjät voivat hakea säkhöpostiviestejä postipalvelimelta TCP/IP yhteyden yli. IMAP eroaa POP protokollasta niin että POP hakee sähköpostiviestit asiakkaan tiedostohakemistoon, kun taas IMAP pitää sähköpostit palvelimella ja käyttäjä vain hakee ne väliaikaisesti luettavaksi. \n
+
+							IMAP yleensä kuuntelee porttinumeroa 143 ja IMAP over SSL 993.
+						</p>
+
+
+					</section>
+
+
+				</section>
+
+
 
 			</div>
 
